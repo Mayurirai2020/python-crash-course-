@@ -132,3 +132,46 @@ z **= 7
 print(z)
 z %= 7
 print (z)
+# we use these type of operation in loops and these types of operator plays crutial role in loops like x += 1
+# OPERATOR PRECEDENCE --- MORE OR LIKE BODMASS IN THE MATHS 
+ans = 2 + 9 * 5 
+print(ans)
+yh = (2+9) *5
+print(yh)
+#compression operator - return the True and False 
+print(6>8)
+print(8<9)
+print(6>=5)
+print(9>=9)
+print(9==9)    
+print(1!=6)
+#logical operators 
+print(8>9 or 7<9)#OR AND NOT WORK FOR EXPRESSION AND STATEMENTS- SHOULD BE THE LOGICALL SHOULD RETURN BOOLEAN vALUES
+print(8>9 and 9<=3)
+print(not (7 == 8))
+#conditional statements
+age = 19
+if age>=18 :
+    print("you can vote")
+    print("you can drive")
+    #indentation leaving the 4 spaces in the print statement, spacing concept in python is the indetation
+    #in other language there is the block of the code in curly brackets formats and in python there is the concept of indentation 
+print("end of the code ")#it will execute because it is out the block
+
+time= int(input("enter the time"))
+if time>=78 :
+    print("you are late")
+    print("you are early to start next round")
+
+elif time<78:
+    print("you are on time")
+
+marks=int(input("enter your marks between 0 to 100"))   
+if marks >= 90 :
+    print("the grade is A")
+elif marks <90 and marks >= 80:
+    print("the gradee is B")    
+elif marks < 80 :
+    print("the grade is C")
+
+  
