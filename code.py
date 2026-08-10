@@ -122,3 +122,8 @@ y = y -1
 y -= 1
 print(y)
 
+z= 8
+z = z*3
+z *= 7
+print(z)
+
