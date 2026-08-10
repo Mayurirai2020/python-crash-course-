@@ -100,4 +100,5 @@ print(5-6)
 print(5*8)
 print(5/76)
 print(5//76)#to get the only integer value in the 
+print(7%8)# its the modulo it calculates the reaminder value
 
