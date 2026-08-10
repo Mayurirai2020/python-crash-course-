@@ -171,7 +171,32 @@ if marks >= 90 :
     print("the grade is A")
 elif marks <90 and marks >= 80:
     print("the gradee is B")    
-elif marks < 80 :
+else :
     print("the grade is C")
+
+#CALCULATOR 
+a= float(input("enter the 1st  number  for operation"))
+b= float(input("enter the 2nd number for the operation"))
+c= input("enter the operants - +, - , *,/ , // , %, ** ") 
+if c == '+':
+    print(a+b)
+elif c =='-':
+    print(a-b)
+elif c =='*':
+    print(a*b)
+elif c == '/':
+    print(a/b)
+elif c == '%':
+    print("a%b")
+elif c == '//':
+    print("//")
+elif c == '**':
+    print("**")
+else:
+    print("output the operant services")        
+
+     
+                    
+  
 
   
