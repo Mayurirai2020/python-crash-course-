@@ -127,3 +127,6 @@ z = z*3
 z *= 7
 print(z)
 
+z /= 8
+z **= 7
+print(z)
