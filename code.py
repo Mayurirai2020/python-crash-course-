@@ -116,5 +116,9 @@ x = x + 7
 x += 7
 print(x)
 
+y= 7
+y = y -1
 
+y -= 1
+print(y)
 
