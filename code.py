@@ -100,5 +100,21 @@ print(5-6)
 print(5*8)
 print(5/76)
 print(5//76)#to get the only integer value in the 
-print(7%8)# its the modulo it calculates the reaminder value
+print(7%8)# its the modulo it calculates the reaminder value modulo -- remainder
+print(2 ** 5)# power operator
+print(8+9)
+print(9-0)
+print(7*9)
+print(9/8)
+print(9//7)
+print(6%4)
+print(6**6)
+
+#assignment operations 
+x =  6
+x = x + 7
+x += 7
+print(x)
+
+
 
