@@ -25,7 +25,7 @@ print(sum)"""
 # print(paragraph.replace("love ", "so much in love with "))
 # print(paragraph.split(" "))
 # print("love" in paragraph)
-age = int(input("enter you age :"))
+"""age = int(input("enter you age :"))
 age = int(input("enter your age :"))
 age = int(input ("enter your age :"))
 name = "i am mayuri rai and i am a machine learning engineer AND I LOVE MY JOB "
@@ -91,4 +91,13 @@ print("good" in paragraph)
 name = input("enter your crush name")
 age= input("when did you meet")
 if_you_marry=print(age + str(10))
-print("actually i am trying something")
+print("actually i am trying something")"""
+#now seein the arthematic operations in the seen 
+#operators +,-, * ,/
+#operants on which the operation has been performed
+print(5+6)
+print(5-6)
+print(5*8)
+print(5/76)
+print(5//76)#to get the only integer value in the 
+
