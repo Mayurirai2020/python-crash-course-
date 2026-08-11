@@ -222,7 +222,20 @@ j= 1
 while j<=10:
     print(j * "*")#here the string is multiplied by the integer number . the string is conatenated the j number of times 
     j += 1
-print("the pattern is printed")        
+print("the pattern is printed")  
+
+m=1 
+while m<=22:
+    print(m * "mayurit ")
+    m += 1
+print("printed their r")    
+
+n=5 
+while n >0 :
+    print(n * "out ")
+    n -= 1
+print("its out ")    
+
 
       
               
