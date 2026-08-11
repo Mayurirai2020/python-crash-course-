@@ -236,6 +236,39 @@ while n >0 :
     n -= 1
 print("its out ")    
 
+# we use for loop for the collection of values ot the sequence or the list data type 
+numbers  = range(5)#1 to 4  sequence of numbers are stored in the numbers  
+for i in numbers :#then we are using the i as iterator in numbers 
+    print(i) 
+
+#change the iniatial value and 
+for T in range(5,77):
+    print(T)
+
+for M in range(1,22):
+    print("mayuri rai")
+    print(M)
+#broute force method  
+for i in range(1,11):
+    if i%2 == 0:
+        print(i)   
+for i in range(2,11,2):
+    print(i) #if we start from the 2 only then step the values by the 2 then it is also the method
+
+for i in range(1,110):
+    if i % 5 == 0:
+        print(i) 
+
+for i in range(5,110,5):
+    print(i)
+    
+
+    
+   
+
+
+    
+
 
       
               
