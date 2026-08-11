@@ -187,11 +187,11 @@ elif c =='*':
 elif c == '/':
     print(a/b)
 elif c == '%':
-    print("a%b")
+    print(a%b)
 elif c == '//':
-    print("//")
+    print(a//b)
 elif c == '**':
-    print("**")
+    print(a**b)
 else:
     print("output the operant services")      
 
@@ -220,7 +220,7 @@ print("end")
 #printing the triangle pattern
 j= 1
 while j<=10:
-    print(j * "*")#here the string is multiplied by the integer number .
+    print(j * "*")#here the string is multiplied by the integer number . the string is conatenated the j number of times 
     j += 1
 print("the pattern is printed")        
 
