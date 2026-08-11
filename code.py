@@ -193,10 +193,39 @@ elif c == '//':
 elif c == '**':
     print("**")
 else:
-    print("output the operant services")        
+    print("output the operant services")      
 
-     
-                    
+#RANGE -- RETURN THE SEQUENCE OF NUMBERS FROM 0 TO THE NUMBER-1
+num = range(5)  # [0,1 ,2 ,3 ,4
+#range(n) # 0 to n-1 
+print(num)
+#if we want to print those numbers then we will use the for loop
+# in range by default values start from 0 but if we want to start from some other values then we will change the by wrting the start value and stop value  
+#range (start, stop ) the last stop value is not included
+#also there is one more thing that is start value stop value and atep value that means by how much we have to add the numbers
+#range(start, stop,step) by default start = 0 and step =1 we can change it 
+ 
+counter = 1 
+while counter<= 5:
+    print(counter)
+    counter += 1 #if suppose we are not adding anything to the counter then it would create infinite loop CAN BE STOP BY JUST WRITING CMD + C IN THE TERMINIAL
+   
+print("end")    
+
+i = 7
+while i <= 12:
+    print(i)
+    i +=1
+print("end") 
+#printing the triangle pattern
+j= 1
+while j<=10:
+    print(j * "*")#here the string is multiplied by the integer number .
+    j += 1
+print("the pattern is printed")        
+
+      
+              
   
 
   
