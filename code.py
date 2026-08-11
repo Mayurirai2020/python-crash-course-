@@ -15,13 +15,13 @@ b = int(input("enter another number to be operated"))
 #operant = input ("enter the operation you wanted to perform:")
 sum = a+b 
 print(sum)"""
-# paragraph = "I am a machine learning engineer and i love the job of it and i love to do it effeciently"
+paragraph = "I am a machine learning engineer and i love the job of it and i love to do it effeciently"
 # print(paragraph.upper())
 # print(paragraph.lower())
 # print(paragraph.title())
 # print(paragraph.capitalize())
 # print(paragraph.count("love"))
-# print(paragraph.find("love"))
+print(paragraph.find("love"))
 # print(paragraph.replace("love ", "so much in love with "))
 # print(paragraph.split(" "))
 # print("love" in paragraph)
@@ -296,10 +296,28 @@ for i in range(1, 1000):
     if i % a ==0 and i % b == 0:
         print(i)
         break 
-   
+#complex data type     
+#list - collection of items, represented by the []
+marks =[98,99,97,90,89, 'a',67.9]#its not necessary to have have same type in the list different data type ,
+print(marks, type(marks))
+print(len(marks))   
+print(marks[0])
+print(marks[4])
+print(marks[-1])
+print(marks[-2])
+#slicing a list - list[starting index inclusive:ending index exclusive]
+print(marks[0:2])
+print(marks[-3:-1])
+print(marks[-3:])#if we want value till last then we ommit likr this
+print(marks[:])#that means it is starting from 0 its by defalut value , complete list will be printed 
+print(marks[:2])#from 0 to 2 
+#loop in list 
+for scores in marks :
+    print(scores)
 
 
-    
+
+
 
 
       
