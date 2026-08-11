@@ -261,7 +261,35 @@ for i in range(1,110):
 
 for i in range(5,110,5):
     print(i)
-    
+for i in range(1,51):
+    if i == 21:
+        break
+    if i % 3 ==0 :
+        print(i)
+print("you are out of the loop ")        
+
+for g in range (1,98):
+    if g==86:
+        continue #it is used to skip the iteration
+    if g % 6==0:
+        print(g)
+print("you are out the loop")     
+for o in range (1,21,2):
+    print(o)   
+for o in range(1,20):
+    if o%2 != 0:
+        print(o)
+
+for h in range(1,11):
+    print (f"{h} x 57 = " ,h * 57 )
+for h in range(57,571,57):
+    print (f"{h} x 57 =", h )    
+
+for k in range(1,51):
+    if k == 15:
+        continue
+    if k % 3 == 0:
+        print(k)
 
     
    
