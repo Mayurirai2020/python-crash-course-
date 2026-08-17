@@ -323,6 +323,11 @@ print(len(agegroup))
 print(agegroup[0])
 print(agegroup[-1])
 print(agegroup[2:6])
+for ages in agegroup:
+    print(agegroup)#here i printed agegroup that means list and then it printed all the lists  and here we can clearly see the conceptual difference
+for ages in agegroup:
+    print(ages)    
+
       
 
 
