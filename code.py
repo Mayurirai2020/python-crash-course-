@@ -371,16 +371,26 @@ marks3= 77,883,8393,8
 print(type(marks3))
 # SET DATA TYPE - IT THE COLLECTION OF THE UNIQUE SET OF ELEMENTS 
 #SET DOESNT STORE THE DUPLICATE ELEMETS 
-set={11,773,33,333,11 }
-print(len(set),set)
-for values in set :
+myset={11,773,33,333,11 }
+print(len(myset),myset)
+for values in myset :
     print(values)
 #dictionary is the collection of key and value pair and in python the value of the key is unique DICT= {KEY and VAlUE}
 sgpa={"sem1":9,"sem2":9.8,"sem3":9,"sem4":9.7}
 print(type(sgpa))
 sgpa["sem2"]=9.92#dictionary are mutuable 
+print(sgpa["sem4"])
+#loop in dictionary 
+for key in sgpa:
+    print(key, sgpa[key])
+#mutable datatypes are slower than the immutuale datatypes
+#because no modifications are allowed in the immutable datatype 
+roll_numbers = [101,105,102,101,108,105,110]
+unique_roll_numbers = set(roll_numbers)
+print(unique_roll_numbers)
 
 
+  
 
 
 
