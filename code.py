@@ -357,6 +357,20 @@ print(marks2[3])
 print(marks2[2])
 print(marks[1])
 #operations in the tuple
+#definitely the operation in the tuple that can modify the tuple cant be performed and the operations like counting the values in the tuples can be performed and knowng the index of a particular values can be performed
+print(marks2.count(66))
+print(marks2.count(77))
+#print(marks2.count(22))
+print(marks.count(66))
+print(marks2.index(66))
+#print(marks.index(22))#it will put that the value will not be in the list 
+#also if try to put the value in the particular index 
+#marks2[0]=100#it will put error because the tuples are immutable 
+#its not necesary that to create the tuple we would use ()parenthesis witout it would be a tuple and if we would print the type of it 
+marks3= 77,883,8393,8
+print(type(marks3))
+
+
 
 
 
