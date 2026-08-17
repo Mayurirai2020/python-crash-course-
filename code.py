@@ -325,10 +325,23 @@ print(agegroup[-1])
 print(agegroup[2:6])
 for ages in agegroup:
     print(agegroup)#here i printed agegroup that means list and then it printed all the lists  and here we can clearly see the conceptual difference
-for ages in agegroup:
+for ages in agegroup:#the primary usage of the for llop is traverse in the lists and tupples
     print(ages)    
+ # lists in the python are mutable 
+ #list_name.append/insert(the value we want to add and insert)
+agegroup.insert(0,89)
+agegroup.insert(9,56)
+agegroup.insert(2,77)
+agegroup.insert(8,99)
+agegroup.insert(1,97)
+agegroup.insert(4,66)
+agegroup.insert(3,65)
+agegroup.insert(6,63)
+agegroup.insert(9,88)#in the insert it would add that values at particular index
+agegroup.append(55)
+agegroup.append(66)#append would add the elements in the list at the last 
 
-      
+     
 
 
 
