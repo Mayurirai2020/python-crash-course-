@@ -308,13 +308,22 @@ print(marks[-2])
 #slicing a list - list[starting index inclusive:ending index exclusive]
 print(marks[0:2])
 print(marks[-3:-1])
-print(marks[-3:])#if we want value till last then we ommit likr this
+print(marks[-3:])#if we want value till last then we ommit like this
 print(marks[:])#that means it is starting from 0 its by defalut value , complete list will be printed 
 print(marks[:2])#from 0 to 2 
 #loop in list 
 for scores in marks :
     print(scores)
-
+marks.append(78)#lists are mutable, we can add the values in last of the lists 
+print(marks)
+marks.insert(0,99)#inserting the values AT PARTICULAR  index
+print(marks)
+agegroup=[34,56,78,75,33,54]
+print(len(agegroup))
+print(agegroup[0])
+print(agegroup[-1])
+print(agegroup[2:6])
+      
 
 
 
