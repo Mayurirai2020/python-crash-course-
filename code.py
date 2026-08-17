@@ -349,6 +349,14 @@ print(98 in agegroup)
 #now we are clearig the values in the list so we use list_nmae.clear
 agegroup.clear()
 print(agegroup)
+print(len(agegroup))
+#tuplles are immutbale - that means the cant be change 
+marks2 = (22, 77,66 ,2.4, 5)
+print(marks2, type(marks2))# in similar way we can access the value of the tuple
+print(marks2[3])
+print(marks2[2])
+print(marks[1])
+#operations in the tuple
 
 
 
