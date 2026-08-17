@@ -366,9 +366,20 @@ print(marks2.index(66))
 #print(marks.index(22))#it will put that the value will not be in the list 
 #also if try to put the value in the particular index 
 #marks2[0]=100#it will put error because the tuples are immutable 
-#its not necesary that to create the tuple we would use ()parenthesis witout it would be a tuple and if we would print the type of it 
+#its not necesary that to create the tuple we would use ()parenthesis witout it would be a tuple and if we would print the type of it , we use the ( ) to make the code readable
 marks3= 77,883,8393,8
 print(type(marks3))
+# SET DATA TYPE - IT THE COLLECTION OF THE UNIQUE SET OF ELEMENTS 
+#SET DOESNT STORE THE DUPLICATE ELEMETS 
+set={11,773,33,333,11 }
+print(len(set),set)
+for values in set :
+    print(values)
+#dictionary is the collection of key and value pair and in python the value of the key is unique DICT= {KEY and VAlUE}
+sgpa={"sem1":9,"sem2":9.8,"sem3":9,"sem4":9.7}
+print(type(sgpa))
+sgpa["sem2"]=9.92#dictionary are mutuable 
+
 
 
 
