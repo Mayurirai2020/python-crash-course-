@@ -340,6 +340,17 @@ agegroup.insert(6,63)
 agegroup.insert(9,88)#in the insert it would add that values at particular index
 agegroup.append(55)
 agegroup.append(66)#append would add the elements in the list at the last 
+print(agegroup)
+#now we are checking the values exists in the list 
+print(77 in agegroup)
+print(55 in agegroup)
+print(99 in agegroup)
+print(98 in agegroup)
+#now we are clearig the values in the list so we use list_nmae.clear
+agegroup.clear()
+print(agegroup)
+
+
 
      
 
