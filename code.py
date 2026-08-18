@@ -385,9 +385,22 @@ for key in sgpa:
     print(key, sgpa[key])
 #mutable datatypes are slower than the immutuale datatypes
 #because no modifications are allowed in the immutable datatype 
-roll_numbers = [101,105,102,101,108,105,110]
+roll_numbers = [101,105,102,101,108,105,110]#here we can use the concepts like converting the list of roll numbers in unique vlaues to set that we would store the values insets
 unique_roll_numbers = set(roll_numbers)
 print(unique_roll_numbers)
+#brute force method 
+roll_numbers1=[23,44,556,778,11,23,556,11]
+unique1=[]
+for rollno in roll_numbers1:
+    if rollno not in unique1:
+        unique1.append(rollno)
+print(unique1)
+
+print("now we will study function")
+
+
+        
+
 
 
   
